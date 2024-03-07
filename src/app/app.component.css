@@ -1,0 +1,6 @@
+.navbar>mat-toolbar {
+    display: flex;
+    justify-content: center;
+    background-color: #d5d5d5;
+    height: 40px;
+}
