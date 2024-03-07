@@ -1,0 +1,15 @@
+<main class="main">
+    <div>{{timeSeconds}}</div>
+
+    <!-- HORIZONTAL -->
+    <div style="display: flex;">
+        <button (click)="onPauseClick()">PAUSA</button>
+        <!-- VERTICAL -->
+        <div style="display: flex; flex-direction: column;">
+            <button (click)="onPlayClick()">PLAY</button>
+            <button (click)="onRecordClick()">RECORD</button>
+            <button routerLink>VOLVER</button>
+        </div>
+    </div>
+    <lapsos #lapsos class="lapso-container"></lapsos>
+</main>
